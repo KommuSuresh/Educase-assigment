@@ -1,0 +1,61 @@
+/* Article.css */
+
+.article-container {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-height: 200px; /* Increase the height of the article box */
+  }
+  
+  .article-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .article-details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .article-title {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+  }
+  
+  .article-title a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .article-title a:hover {
+    text-decoration: underline;
+  }
+  
+  .article-author,
+  .article-description,
+  .article-content {
+    margin: 5px 0;
+  }
+  
+  .article-author {
+    font-weight: bold;
+  }
+  
+  .article-description {
+    font-size: 1.1em;
+  }
+  
+  .article-content {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
